@@ -46,6 +46,7 @@ function Menu() {
               &nbsp;New Table
             </Link>
           </li>
+
         </ul>
         <div className="text-center d-none d-md-inline">
           <button

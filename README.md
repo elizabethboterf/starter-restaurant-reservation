@@ -295,7 +295,7 @@ so that I know which tables are occupied and free.
 1. The `tables` table must be seeded with the following data:
    - `Bar #1` & `Bar #2`, each with a capacity of 1.
    - `#1` & `#2`, each with a capacity of 6.
-1. The `/tables` API will have the same validations as above and will return 400, along with an informative error message, when a validation error happens.
+1. The `/tables` API will have the same validations as above and will return 400, along with an informative error message, when a validation error happens. 
 
 - if the table capacity is less than the number of people in the reservation, return 400 with an error message.
 - if the table is occupied, return 400 with an error message.
