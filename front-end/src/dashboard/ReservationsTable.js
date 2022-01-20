@@ -1,3 +1,4 @@
+//this function creates the table for the reservations data
 import React from "react";
 import {Link} from "react-router-dom";
 import {formatAsTime } from "../utils/date-time";

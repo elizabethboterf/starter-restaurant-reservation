@@ -1,3 +1,4 @@
+//this component creates the page for creating a new table
 import React , {useState} from "react";
 import {useHistory} from "react-router-dom";
 import ErrorAlert from "../layout/ErrorAlert";

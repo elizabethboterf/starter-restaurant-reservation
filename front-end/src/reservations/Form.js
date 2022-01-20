@@ -1,3 +1,4 @@
+//this is the form used by both the create and edit reservation pages
 import React, { useState } from "react";
 
 function Form({submitHandler, cancelHanlder, initialState}){

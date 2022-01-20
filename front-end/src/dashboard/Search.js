@@ -1,3 +1,4 @@
+//this component creates the page used to search for reservations by phone
 import React, { useState } from "react";
 import ErrorAlert from "../layout/ErrorAlert";
 import ReservationsTable from "./ReservationsTable";
@@ -16,7 +17,6 @@ function Search() {
     setReservationsError(null);
     listReservations(newPhone, abortController.signal)
       .then(setReservations)
-      .then(console.log)
       .catch(setReservationsError);
     return () => abortController.abort();
   }

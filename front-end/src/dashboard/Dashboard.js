@@ -72,8 +72,6 @@ function Dashboard({ date }) {
     if (confirmed) {
       finishTable(tableId)
       .then(()=>history.go())
-      // .then(loadTables)
-      // .then(loadReservations)
       .catch(setError);
     }
   }

@@ -1,22 +1,7 @@
-import React, {useEffect, useState} from "react";
-import ErrorAlert from "../layout/ErrorAlert";
-import {listTables} from "../utils/api";
+//this function creates the table for the tables data
+import React from "react";
 
 function TablesTable({tables, handleFinish}){
-  //const [tables, setTables]= useState([]);
-  //const [error, setError]= useState(null);
-
-  // function loadTables() {
-  //   const abortController = new AbortController();
-  //   setError(null);
-  //   listTables(abortController.signal)
-  //     .then(setTables)
-  //     .catch(setError);
-  //   return () => abortController.abort();
-  // }
-
-  // useEffect(loadTables, []);
-  console.log(tables);
 
   const tableList = tables.map((table)=>
     { 
