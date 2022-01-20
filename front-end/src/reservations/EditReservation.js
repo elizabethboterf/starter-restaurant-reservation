@@ -22,7 +22,7 @@ function EditReservation(){
     const [error, setError] = useState(null);
 
     useEffect(loadReservation, [reservationId]);
-     console.log(reservation);
+     
     function loadReservation() {
         const abortController = new AbortController();
         setError(null);
