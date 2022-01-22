@@ -9,8 +9,7 @@ This is an app designed to aide restaurants in managing and seating reservations
 
 
 ---
-## Technologies
-/** 
+## Technologies 
  
  * PostgreSQL
  * ElephantSQL
@@ -22,7 +21,6 @@ This is an app designed to aide restaurants in managing and seating reservations
  * Bootstrap
  * CSS
  * HTML
- */
 ---
 
 
